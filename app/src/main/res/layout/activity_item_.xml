@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item_Activity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/btnMilk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Milk"/>
+
+        <Button
+            android:id="@+id/btnEggs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Eggs"/>
+
+        <Button
+            android:id="@+id/btnBread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Bread"/>
+
+        <Button
+            android:id="@+id/btnApple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Apple"/>
+
+        <Button
+            android:id="@+id/btnPotato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Potato"/>
+
+        <Button
+            android:id="@+id/btnFlour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Flour"/>
+
+        <Button
+            android:id="@+id/btnSugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Sugar"/>
+
+        <Button
+            android:id="@+id/btnTomato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Tomato"/>
+
+        <Button
+            android:id="@+id/btnOnion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Onion"/>
+
+        <Button
+            android:id="@+id/btnChicken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Chicken"/>
+
+        <Button
+            android:id="@+id/btnRamen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Ramen"/>
+
+        <Button
+            android:id="@+id/btnTea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="Tea"/>
+        <Button
+            android:id="@+id/btnNothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectItem"
+            android:text="CLear List"/>
+
+</GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

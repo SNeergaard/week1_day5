@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvli1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 1"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvli2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 2"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvli1"/>
+
+    <TextView
+        android:id="@+id/tvli3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 3"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvli2"/>
+
+    <TextView
+        android:id="@+id/tvli4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 4"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvli3"/>
+
+    <TextView
+        android:id="@+id/tvli5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 5"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvli4"/>
+
+    <TextView
+        android:id="@+id/tvli6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 6"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvli5"/>
+
+    <TextView
+        android:id="@+id/tvli7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 7"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvli6"/>
+
+    <TextView
+        android:id="@+id/tvli8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 8"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvli7"/>
+
+    <TextView
+        android:id="@+id/tvli9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 9"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvli8"/>
+
+    <TextView
+        android:id="@+id/tvli10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Item 10"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvli9"/>
+
+    <Button
+        android:id="@+id/addListItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:layout_margin="8dp"
+        android:onClick="addValue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
